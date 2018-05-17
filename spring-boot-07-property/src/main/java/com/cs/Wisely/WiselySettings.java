@@ -2,7 +2,8 @@ package com.cs.Wisely;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "wisely",locations = "classpath:wisely.properties")
+//@ConfigurationProperties(prefix = "wisely",value = "classpath:wisely.properties")
+@ConfigurationProperties(prefix = "wisely") // 上面暂未运行成功
 public class WiselySettings {
 
 	private String name;

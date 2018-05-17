@@ -1,9 +1,9 @@
 1、修改banner
 第一种方式：修改的时候，进行设置,在Application的main方法中：
 @SpringBootApplication
-public class PublicClassApp {	
+public class org.kfit.service.PublicClassApp {	
 	public static void main(String[] args) {
-		SpringApplication application = new SpringApplication(PublicClassApp.class);
+		SpringApplication application = new SpringApplication(org.kfit.service.PublicClassApp.class);
 		/*
 		* Banner.Mode.OFF:关闭;
 		* Banner.Mode.CONSOLE:控制台输出，默认方式;
@@ -11,7 +11,7 @@ public class PublicClassApp {
 		*/
 		application.setBannerMode(Banner.Mode.OFF);
 		application.run(args);
-		//SpringApplication.run(PublicClassApp.class, args);
+		//SpringApplication.run(org.kfit.service.PublicClassApp.class, args);
 	}
 }
 

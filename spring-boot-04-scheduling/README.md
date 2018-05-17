@@ -1,4 +1,4 @@
-1、整体步骤：
+    1.整体步骤：
 (1) —— Druid简单介绍，具体看官网；
 Druid是Java语言中最好的数据库连接池，并且能够提供强大的监控和扩展功能。
 业界把Druid 和HikariCP 做对比后，虽说HikariCP 的性能比Druid 高，但是因为Druid 包括很多维度的统计和
@@ -9,7 +9,7 @@ Druid是Java语言中最好的数据库连接池，并且能够提供强大的�
 (5) —— 输入地址进行测试；http://127.0.0.1:8080/druid/index.html
 
 
-2、普通类调用Spring bean对象
+    2.普通类调用Spring bean对象
 (1)实现接口：ApplicationContextAware，然后加上@Component 注解即可
 (2)注册Spring Util  这里为了和上一个冲突，所以方面名为：springUtil2
 	@Bean

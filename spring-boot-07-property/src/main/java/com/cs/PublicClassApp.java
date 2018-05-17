@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PublicClassApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PublicClassApp.class, args);
+		SpringApplication.run(PublicClassApp.class, new String[]{"hello,","xxm"});
 	}
 }

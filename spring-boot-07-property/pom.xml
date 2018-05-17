@@ -22,7 +22,13 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.7</version>
 		</dependency>
-		
+
+		<!-- MySQL -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
 		<!--spring-boot-configuration:spring boot 配置处理器; -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
