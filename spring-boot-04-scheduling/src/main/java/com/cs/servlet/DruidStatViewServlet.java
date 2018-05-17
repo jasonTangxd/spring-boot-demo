@@ -6,7 +6,7 @@ import javax.servlet.annotation.WebServlet;
 import com.alibaba.druid.support.http.StatViewServlet;
 
 /**
-* druid数据源状态监控.
+* druid 数据源状态监控.
 * @author Administrator
 *
 */

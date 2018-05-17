@@ -11,6 +11,7 @@ import com.cs.bean.Demo;
 
 /**
 * 使用JdbcTemplate操作数据库.
+ *
 * @author Administrator
 *
 */
@@ -26,7 +27,7 @@ public class DemoDao {
 	* @return
 	*/
 	public Demo getById(long id){
-		String sql = "select * from Demo where id=?";
+		String sql = "select * from demo where id=?";
 		RowMapper<Demo> rowMapper = new BeanPropertyRowMapper<Demo>(Demo.class);
 		return jdbcTemplate.queryForObject(sql, rowMapper, id);
 	}

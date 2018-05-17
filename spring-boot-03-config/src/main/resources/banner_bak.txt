@@ -2,7 +2,7 @@
 ${application.version}
 #这个是上面的的版本号前面加v后上括号
 ${application.formatted-version}
-#这个是springboot的版本号
+#这个是spring-boot的版本号
 ${spring-boot.version}
-#这个是springboot的版本号
+#这个是spring-boot的版本号
 ${spring-boot.formatted-version}

@@ -19,3 +19,7 @@ Druid是Java语言中最好的数据库连接池，并且能够提供强大的�
 	@ServletComponentScan
 	@Import(value={SpringUtil.class})
 	publicclass App {//省略其它代码.}	
+	
+	
+	
+	

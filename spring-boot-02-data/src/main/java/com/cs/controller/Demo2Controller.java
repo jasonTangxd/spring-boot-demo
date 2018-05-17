@@ -1,4 +1,4 @@
-package com.cs.web;
+package com.cs.controller;
 
 import javax.annotation.Resource;
 

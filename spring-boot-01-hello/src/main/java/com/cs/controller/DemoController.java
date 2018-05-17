@@ -1,4 +1,4 @@
-package com.cs.web;
+package com.cs.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -39,6 +39,11 @@ public class DemoController {
 		return JSONObject.toJSONString(demo);
 	}
 
+    /**
+     * 看看我们自定义的异常
+     *
+     * @return
+     */
 	@RequestMapping("/zeroException")
 	public int zeroException() {
 		return 100 / 0;
